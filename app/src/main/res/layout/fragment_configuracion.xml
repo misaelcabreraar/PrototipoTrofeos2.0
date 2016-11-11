@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Configuración"
+        android:id="@+id/textView"
+        android:layout_marginTop="40dp" />
+
+    <Switch
+        android:id="@+id/sonido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="Sonido"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:singleLine="true"
+        android:splitTrack="true"
+        android:layout_marginBottom="10dp" />
+
+    <Switch
+        android:id="@+id/notif"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Notificaciones"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:singleLine="true"
+        android:splitTrack="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Soporte"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+</LinearLayout>

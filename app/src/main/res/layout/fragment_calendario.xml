@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="layout.calendario">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="420dp"
+        app:compactCalendarTextSize="15sp"
+        app:compactCalendarBackgroundColor="?attr/colorPrimary"
+        app:compactCalendarTextColor="#fff"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#263DB3"
+        app:compactCalendarCurrentDayBackgroundColor="#203084"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        />
+
+</FrameLayout>
