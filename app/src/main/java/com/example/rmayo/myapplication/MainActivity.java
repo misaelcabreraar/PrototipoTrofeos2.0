@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
 
     private void createNavItems(){
         //CRETE ITEMS
-        AHBottomNavigationItem avatar       = new AHBottomNavigationItem("Avatar",R.drawable.avatar);
+        AHBottomNavigationItem avatar       = new AHBottomNavigationItem("Abatar",R.drawable.avatar);
         AHBottomNavigationItem record       = new AHBottomNavigationItem("Recordatorios",R.drawable.recordatorio);
         AHBottomNavigationItem calendario   = new AHBottomNavigationItem("Calendario",R.drawable.calendario);
         AHBottomNavigationItem trofeos      = new AHBottomNavigationItem("Trofeos",R.drawable.trofeos);
